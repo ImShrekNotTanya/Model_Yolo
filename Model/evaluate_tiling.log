@@ -1,0 +1,17 @@
+
+[full] 0.8s, mAP50=0.41442415989777487
+  human      AP50=0.718  P@.25=0.815  R@.25=0.647  gt=34  det=509
+  stuff      AP50=0.111  P@.25=0.125  R@.25=0.154  gt=13  det=2073
+  transport  ╨╜╨╡╤В ╨╛╨▒╤К╨╡╨║╤В╨╛╨▓ ╨▓ val
+
+[tile640] 6.2s, mAP50=0.22585003088283384
+  human      AP50=0.448  P@.25=0.600  R@.25=0.353  gt=34  det=1027
+  stuff      AP50=0.004  P@.25=0.000  R@.25=0.000  gt=13  det=7782
+  transport  ╨╜╨╡╤В ╨╛╨▒╤К╨╡╨║╤В╨╛╨▓ ╨▓ val
+
+[tile1024] 19.2s, mAP50=0.016693452940449195
+  human      AP50=0.033  P@.25=0.085  R@.25=0.118  gt=34  det=7719
+  stuff      AP50=0.000  P@.25=0.000  R@.25=0.000  gt=13  det=25229
+  transport  ╨╜╨╡╤В ╨╛╨▒╤К╨╡╨║╤В╨╛╨▓ ╨▓ val
+
+Saved C:\Users\╨Э╨╕╨║╨╕╤В╨░\Desktop\human_detector\tiling_metrics.json

@@ -1,0 +1,55 @@
+{
+  "weights": "C:\\Users\\Никита\\Desktop\\human_detector\\runs\\sar_3class_1024\\weights\\best_combined.pt",
+  "imgsz": 1536,
+  "note": "last.pt (epoch 42) chosen over early-stop best.pt (epoch 22) after comparing both on test/val",
+  "test_polina": {
+    "overall": {
+      "precision": 0.3755025742831106,
+      "recall": 0.3291717548298735,
+      "mAP50": 0.36166780727012393,
+      "mAP50-95": 0.19911667364425759
+    },
+    "per_class": {
+      "human": {
+        "precision": 0.7118338064872676,
+        "recall": 0.5814204327366701,
+        "mAP50": 0.6945653559195581,
+        "mAP50-95": 0.3807114262726717
+      },
+      "stuff": {
+        "precision": 0.03917134207895373,
+        "recall": 0.07692307692307693,
+        "mAP50": 0.02877025862068966,
+        "mAP50-95": 0.01752192101584343
+      }
+    }
+  },
+  "val_egor": {
+    "overall": {
+      "precision": 0.7206371004155517,
+      "recall": 0.6814728138644147,
+      "mAP50": 0.7069867624764526,
+      "mAP50-95": 0.34838899583511523
+    },
+    "per_class": {
+      "human": {
+        "precision": 0.6092384314700781,
+        "recall": 0.4759612684787417,
+        "mAP50": 0.44663309695355746,
+        "mAP50-95": 0.13165581891362715
+      },
+      "transport": {
+        "precision": 0.791000892875771,
+        "recall": 0.8184571731145022,
+        "mAP50": 0.9420376766091051,
+        "mAP50-95": 0.5601485039136173
+      },
+      "stuff": {
+        "precision": 0.7616719769008062,
+        "recall": 0.75,
+        "mAP50": 0.732289513866695,
+        "mAP50-95": 0.35336266467810096
+      }
+    }
+  }
+}

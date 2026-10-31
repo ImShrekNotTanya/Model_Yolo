@@ -1,0 +1,5 @@
+sar_3class dataset ready: C:\Users\═шъшЄр\Desktop\human_detector\sar_3class\dataset
+  train: 134 images, 1238 boxes (human=841, transport=267, stuff=130), background=13
+  val: 16 images, 140 boxes (human=95, transport=37, stuff=8), background=3
+  test: 13 images, 47 boxes (human=34, transport=0, stuff=13), background=0
+test stems excluded from train/val: OK

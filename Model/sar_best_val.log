@@ -1,0 +1,64 @@
+
+===== imgsz 640 =====
+Ultralytics 8.4.173  Python-3.14.0 torch-2.14.1+cpu CPU (AMD Ryzen 7 9800X3D 8-Core Processor)
+YOLO11n summary (fused): 100 layers, 2,583,322 parameters, 0 gradients, 6.4 GFLOPs
+[34m[1mval: [0mFast image access  (ping: 0.00.0 ms, read: 3866.0734.2 MB/s, size: 16554.2 KB)
+
+[K[34m[1mval: [0mScanning C:\Users\╨Э╨╕╨║╨╕╤В╨░\Desktop\human_detector\data\sar_source\datasets\sar\labels\val.cache... 33 images, 0 backgrounds, 0 corrupt: 100% тФБтФБтФБтФБтФБтФБтФБтФБтФБтФБтФБтФБ 33/33 12.6Mit/s 0.0s
+
+[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 11% тФБтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФА 1/9 2.4s/it 0.7s<19.0s
+[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 22% тФБтФБтХ╕тФАтФАтФАтФАтФАтФАтФАтФАтФА 2/9 1.4s/it 1.4s<9.7s
+[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 33% тФБтФБтФБтФБтФАтФАтФАтФАтФАтФАтФАтФА 3/9 1.1s/it 2.2s<6.7s
+[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 44% тФБтФБтФБтФБтФБтФАтФАтФАтФАтФАтФАтФА 4/9 1.0s/it 3.0s<5.0s
+[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 55% тФБтФБтФБтФБтФБтФБтХ╕тФАтФАтФАтФАтФА 5/9 2.0it/s 3.2s<2.0s
+[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 66% тФБтФБтФБтФБтФБтФБтФБтФБтФАтФАтФАтФА 6/9 2.7it/s 3.5s<1.1s
+[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 77% тФБтФБтФБтФБтФБтФБтФБтФБтФБтФАтФАтФА 7/9 3.1it/s 3.7s<0.6s
+[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 88% тФБтФБтФБтФБтФБтФБтФБтФБтФБтФБтХ╕тФА 8/9 3.6it/s 3.9s<0.3s
+[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100% тФБтФБтФБтФБтФБтФБтФБтФБтФБтФБтФБтФБ 9/9 2.3it/s 4.0s
+                   all         33        367      0.532      0.379      0.374      0.161
+                 human         27        128       0.31      0.117      0.074     0.0281
+             transport         13         38      0.843      0.868      0.897      0.495
+                 stuff         20         31      0.714      0.258      0.295      0.132
+                 smoke         14         44      0.505      0.227      0.284      0.105
+                  fire          9         51      0.408      0.294      0.268     0.0767
+              postburn         12         75       0.41      0.507      0.424      0.126
+Speed: 0.5ms preprocess, 8.9ms inference, 0.0ms loss, 1.3ms postprocess per image
+overall 0.5318241151292242 0.3786216849598048 0.3736819431578964 0.1605129479805654
+human P 0.31 R 0.117 mAP50 0.074 mAP50-95 0.028
+transport P 0.843 R 0.868 mAP50 0.897 mAP50-95 0.495
+stuff P 0.714 R 0.258 mAP50 0.295 mAP50-95 0.132
+smoke P 0.505 R 0.227 mAP50 0.284 mAP50-95 0.105
+fire P 0.408 R 0.294 mAP50 0.268 mAP50-95 0.077
+postburn P 0.41 R 0.507 mAP50 0.424 mAP50-95 0.126
+
+===== imgsz 1024 =====
+Ultralytics 8.4.173  Python-3.14.0 torch-2.14.1+cpu CPU (AMD Ryzen 7 9800X3D 8-Core Processor)
+YOLO11n summary (fused): 100 layers, 2,583,322 parameters, 0 gradients, 6.4 GFLOPs
+[34m[1mval: [0mFast image access  (ping: 0.00.0 ms, read: 5078.2333.9 MB/s, size: 16030.6 KB)
+
+[K[34m[1mval: [0mScanning C:\Users\╨Э╨╕╨║╨╕╤В╨░\Desktop\human_detector\data\sar_source\datasets\sar\labels\val.cache... 33 images, 0 backgrounds, 0 corrupt: 100% тФБтФБтФБтФБтФБтФБтФБтФБтФБтФБтФБтФБ 33/33 23.1Mit/s 0.0s
+
+[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 11% тФБтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФА 1/9 2.5s/it 0.7s<19.6s
+[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 22% тФБтФБтХ╕тФАтФАтФАтФАтФАтФАтФАтФАтФА 2/9 1.4s/it 1.5s<10.1s
+[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 33% тФБтФБтФБтФБтФАтФАтФАтФАтФАтФАтФАтФА 3/9 1.2s/it 2.3s<7.2s
+[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 44% тФБтФБтФБтФБтФБтФАтФАтФАтФАтФАтФАтФА 4/9 1.1s/it 3.2s<5.5s
+[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 55% тФБтФБтФБтФБтФБтФБтХ╕тФАтФАтФАтФАтФА 5/9 1.6it/s 3.6s<2.5s
+[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 66% тФБтФБтФБтФБтФБтФБтФБтФБтФАтФАтФАтФА 6/9 2.1it/s 3.9s<1.4s
+[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 77% тФБтФБтФБтФБтФБтФБтФБтФБтФБтФАтФАтФА 7/9 2.5it/s 4.2s<0.8s
+[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 88% тФБтФБтФБтФБтФБтФБтФБтФБтФБтФБтХ╕тФА 8/9 2.7it/s 4.5s<0.4s
+[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100% тФБтФБтФБтФБтФБтФБтФБтФБтФБтФБтФБтФБ 9/9 2.0it/s 4.5s
+                   all         33        367      0.461      0.359      0.332      0.148
+                 human         27        128        0.4      0.125      0.136     0.0459
+             transport         13         38      0.693      0.842      0.875       0.52
+                 stuff         20         31      0.735      0.258      0.312      0.132
+                 smoke         14         44      0.254      0.124      0.157     0.0572
+                  fire          9         51      0.387      0.314      0.216     0.0625
+              postburn         12         75      0.297      0.493      0.292     0.0682
+Speed: 0.8ms preprocess, 20.0ms inference, 0.0ms loss, 3.9ms postprocess per image
+overall 0.46097368560756324 0.3593736373124672 0.3315223989247171 0.14760904558584162
+human P 0.4 R 0.125 mAP50 0.136 mAP50-95 0.046
+transport P 0.693 R 0.842 mAP50 0.875 mAP50-95 0.52
+stuff P 0.735 R 0.258 mAP50 0.312 mAP50-95 0.132
+smoke P 0.254 R 0.124 mAP50 0.157 mAP50-95 0.057
+fire P 0.387 R 0.314 mAP50 0.216 mAP50-95 0.063
+postburn P 0.297 R 0.493 mAP50 0.292 mAP50-95 0.068

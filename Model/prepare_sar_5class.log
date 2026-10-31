@@ -1,0 +1,4 @@
+sar_5class dataset ready: C:\Users\═шъшЄр\Desktop\human_detector\sar_5class\dataset
+  train: 134 images, 1764 boxes (human=841, transport=267, stuff=130, smoke=252, fire=274), background=2
+  val: 16 images, 235 boxes (human=95, transport=37, stuff=8, smoke=44, fire=51), background=1
+  test: 13 images, 47 boxes (human=34, transport=0, stuff=13, smoke=0, fire=0), background=0

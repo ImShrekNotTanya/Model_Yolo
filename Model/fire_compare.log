@@ -1,0 +1,70 @@
+val stems 16
+built fw2
+built sar_source6
+Ultralytics 8.4.173  Python-3.14.0 torch-2.14.1+cpu CPU (AMD Ryzen 7 9800X3D 8-Core Processor)
+YOLO11s summary (fused): 100 layers, 9,413,574 parameters, 0 gradients, 21.4 GFLOPs
+[34m[1mval: [0mFast image access  (ping: 0.00.0 ms, read: 147.416.3 MB/s, size: 481.2 KB)
+
+[K[34m[1mval: [0mScanning C:\Users\╨Э╨╕╨║╨╕╤В╨░\AppData\Local\Temp\opencode\fire_compare\fw2\labels\val... 16 images, 2 backgrounds, 0 corrupt: 100% тФБтФБтФБтФБтФБтФБтФБтФБтФБтФБтФБтФБ 16/16 934.0it/s 0.0s
+[34m[1mval: [0mNew cache created: C:\Users\\AppData\Local\Temp\opencode\fire_compare\fw2\labels\val.cache
+
+[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 25% тФБтФБтФБтФАтФАтФАтФАтФАтФАтФАтФАтФА 1/4 2.9it/s 0.1s<1.0s
+[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 75% тФБтФБтФБтФБтФБтФБтФБтФБтФБтФАтФАтФА 3/4 5.1it/s 0.3s<0.2s
+[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100% тФБтФБтФБтФБтФБтФБтФБтФБтФБтФБтФБтФБ 4/4 9.7it/s 0.4s
+                   all         16         95     0.0396       0.15     0.0232    0.00546
+Speed: 0.2ms preprocess, 19.2ms inference, 0.0ms loss, 0.2ms postprocess per image
+FIREWATCH 640 mAP50 0.0232
+   fire AP50 0.0449 P 0.064 R 0.255
+   smoke AP50 0.0014 P 0.015 R 0.045
+Ultralytics 8.4.173  Python-3.14.0 torch-2.14.1+cpu CPU (AMD Ryzen 7 9800X3D 8-Core Processor)
+YOLO11s summary (fused): 100 layers, 9,413,574 parameters, 0 gradients, 21.4 GFLOPs
+[34m[1mval: [0mFast image access  (ping: 0.00.0 ms, read: 7185.91277.2 MB/s, size: 474.9 KB)
+
+[K[34m[1mval: [0mScanning C:\Users\╨Э╨╕╨║╨╕╤В╨░\AppData\Local\Temp\opencode\fire_compare\fw2\labels\val.cache... 16 images, 2 backgrounds, 0 corrupt: 100% тФБтФБтФБтФБтФБтФБтФБтФБтФБтФБтФБтФБ 16/16 8.4Mit/s 0.0s
+
+[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 25% тФБтФБтФБтФАтФАтФАтФАтФАтФАтФАтФАтФА 1/4 1.4it/s 0.2s<2.1s
+[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 50% тФБтФБтФБтФБтФБтФБтФАтФАтФАтФАтФАтФА 2/4 2.6it/s 0.4s<0.8s
+[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 75% тФБтФБтФБтФБтФБтФБтФБтФБтФБтФАтФАтФА 3/4 2.8it/s 0.7s<0.4s
+[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100% тФБтФБтФБтФБтФБтФБтФБтФБтФБтФБтФБтФБ 4/4 4.2it/s 1.0s
+                   all         16         95      0.103       0.08     0.0275    0.00621
+Speed: 0.7ms preprocess, 50.7ms inference, 0.0ms loss, 0.2ms postprocess per image
+FIREWATCH 1024 mAP50 0.0275
+   fire AP50 0.0541 P 0.177 R 0.137
+   smoke AP50 0.0008 P 0.028 R 0.023
+Ultralytics 8.4.173  Python-3.14.0 torch-2.14.1+cpu CPU (AMD Ryzen 7 9800X3D 8-Core Processor)
+YOLO11n summary (fused): 100 layers, 2,583,322 parameters, 0 gradients, 6.4 GFLOPs
+[34m[1mval: [0mFast image access  (ping: 0.00.0 ms, read: 137.812.1 MB/s, size: 455.7 KB)
+
+[K[34m[1mval: [0mScanning C:\Users\╨Э╨╕╨║╨╕╤В╨░\AppData\Local\Temp\opencode\fire_compare\sar_source6\labels\val... 16 images, 0 backgrounds, 0 corrupt: 100% тФБтФБтФБтФБтФБтФБтФБтФБтФБтФБтФБтФБ 16/16 968.6it/s 0.0s
+[34m[1mval: [0mNew cache created: C:\Users\\AppData\Local\Temp\opencode\fire_compare\sar_source6\labels\val.cache
+
+[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 50% тФБтФБтФБтФБтФБтФБтФАтФАтФАтФАтФАтФА 2/4 4.7it/s 0.1s<0.4s
+[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100% тФБтФБтФБтФБтФБтФБтФБтФБтФБтФБтФБтФБ 4/4 15.3it/s 0.3s
+                   all         16        310      0.509      0.459      0.455      0.189
+Speed: 0.2ms preprocess, 9.3ms inference, 0.0ms loss, 1.0ms postprocess per image
+SAR-READY 640 mAP50 0.4554
+   human AP50 0.0008 P 0.0 R 0.0
+   transport AP50 0.8624 P 0.814 R 0.811
+   stuff AP50 0.8693 P 0.787 R 0.875
+   smoke AP50 0.362 P 0.546 R 0.386
+   fire AP50 0.2708 P 0.358 R 0.284
+   postburn AP50 0.3668 P 0.55 R 0.4
+Ultralytics 8.4.173  Python-3.14.0 torch-2.14.1+cpu CPU (AMD Ryzen 7 9800X3D 8-Core Processor)
+YOLO11n summary (fused): 100 layers, 2,583,322 parameters, 0 gradients, 6.4 GFLOPs
+[34m[1mval: [0mFast image access  (ping: 0.00.0 ms, read: 5977.91078.6 MB/s, size: 469.3 KB)
+
+[K[34m[1mval: [0mScanning C:\Users\╨Э╨╕╨║╨╕╤В╨░\AppData\Local\Temp\opencode\fire_compare\sar_source6\labels\val.cache... 16 images, 0 backgrounds, 0 corrupt: 100% тФБтФБтФБтФБтФБтФБтФБтФБтФБтФБтФБтФБ 16/16 8.4Mit/s 0.0s
+
+[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 25% тФБтФБтФБтФАтФАтФАтФАтФАтФАтФАтФАтФА 1/4 2.9it/s 0.1s<1.0s
+[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 50% тФБтФБтФБтФБтФБтФБтФАтФАтФАтФАтФАтФА 2/4 5.0it/s 0.2s<0.4s
+[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 75% тФБтФБтФБтФБтФБтФБтФБтФБтФБтФАтФАтФА 3/4 5.6it/s 0.3s<0.2s
+[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100% тФБтФБтФБтФБтФБтФБтФБтФБтФБтФБтФБтФБ 4/4 8.2it/s 0.5s
+                   all         16        310      0.497      0.454      0.442        0.2
+Speed: 0.7ms preprocess, 19.1ms inference, 0.0ms loss, 3.2ms postprocess per image
+SAR-READY 1024 mAP50 0.4424
+   human AP50 0.076 P 0.261 R 0.06
+   transport AP50 0.8742 P 0.706 R 0.784
+   stuff AP50 0.9152 P 0.871 R 0.875
+   smoke AP50 0.2983 P 0.384 R 0.386
+   fire AP50 0.2418 P 0.334 R 0.314
+   postburn AP50 0.2488 P 0.424 R 0.305

@@ -1,0 +1,173 @@
+Ultralytics 8.4.173  Python-3.14.0 torch-2.14.1+cpu CPU (AMD Ryzen 7 9800X3D 8-Core Processor)
+YOLO11s summary (fused): 100 layers, 9,413,961 parameters, 0 gradients, 21.4 GFLOPs
+[34m[1mval: [0mFast image access  (ping: 0.00.0 ms, read: 215.6153.5 MB/s, size: 606.2 KB)
+
+[K[34m[1mval: [0mScanning C:\Users\╨Э╨╕╨║╨╕╤В╨░\Desktop\human_detector\sar_3class\dataset\labels\test... 13 images, 0 backgrounds, 0 corrupt: 100% тФБтФБтФБтФБтФБтФБтФБтФБтФБтФБтФБтФБ 13/13 894.9it/s 0.0s
+[34m[1mval: [0mNew cache created: C:\Users\\Desktop\human_detector\sar_3class\dataset\labels\test.cache
+
+[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 25% тФБтФБтФБтФАтФАтФАтФАтФАтФАтФАтФАтФА 1/4 1.0it/s 0.3s<2.9s
+[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 50% тФБтФБтФБтФБтФБтФБтФАтФАтФАтФАтФАтФА 2/4 1.8it/s 0.6s<1.1s
+[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 75% тФБтФБтФБтФБтФБтФБтФБтФБтФБтФАтФАтФА 3/4 2.2it/s 0.9s<0.4s
+[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100% тФБтФБтФБтФБтФБтФБтФБтФБтФБтФБтФБтФБ 4/4 4.1it/s 1.0s
+                   all         13         47      0.341      0.284      0.338      0.156
+                 human         13         34      0.682      0.567       0.66      0.307
+                 stuff          8         13          0          0     0.0156      0.005
+Speed: 0.9ms preprocess, 59.9ms inference, 0.0ms loss, 0.3ms postprocess per image
+Results saved to [1mC:\Users\\Desktop\human_detector\runs\sar_3class_test_1024[0m
+Ultralytics 8.4.173  Python-3.14.0 torch-2.14.1+cpu CPU (AMD Ryzen 7 9800X3D 8-Core Processor)
+YOLO11s summary (fused): 100 layers, 9,413,961 parameters, 0 gradients, 21.4 GFLOPs
+[34m[1mval: [0mFast image access  (ping: 0.00.0 ms, read: 3675.0908.4 MB/s, size: 458.9 KB)
+
+[K[34m[1mval: [0mScanning C:\Users\╨Э╨╕╨║╨╕╤В╨░\Desktop\human_detector\sar_3class\dataset\labels\val.cache... 16 images, 3 backgrounds, 0 corrupt: 100% тФБтФБтФБтФБтФБтФБтФБтФБтФБтФБтФБтФБ 16/16 7.5Mit/s 0.0s
+
+[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 25% тФБтФБтФБтФАтФАтФАтФАтФАтФАтФАтФАтФА 1/4 1.4it/s 0.2s<2.2s
+[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 50% тФБтФБтФБтФБтФБтФБтФАтФАтФАтФАтФАтФА 2/4 2.3it/s 0.4s<0.9s
+[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 75% тФБтФБтФБтФБтФБтФБтФБтФБтФБтФАтФАтФА 3/4 2.6it/s 0.8s<0.4s
+[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100% тФБтФБтФБтФБтФБтФБтФБтФБтФБтФБтФБтФБ 4/4 3.8it/s 1.1s
+                   all         16        140      0.639      0.661      0.645      0.378
+                 human         12         95      0.299      0.232      0.171     0.0333
+             transport         12         37      0.744      0.892      0.884       0.59
+                 stuff          7          8      0.873      0.858       0.88      0.512
+Speed: 2.5ms preprocess, 51.2ms inference, 0.0ms loss, 0.6ms postprocess per image
+Results saved to [1mC:\Users\\Desktop\human_detector\runs\sar_3class_val_1024[0m
+Ultralytics 8.4.173  Python-3.14.0 torch-2.14.1+cpu CPU (AMD Ryzen 7 9800X3D 8-Core Processor)
+YOLO11s summary (fused): 100 layers, 9,413,961 parameters, 0 gradients, 21.4 GFLOPs
+[34m[1mval: [0mFast image access  (ping: 0.00.0 ms, read: 5211.82080.1 MB/s, size: 600.3 KB)
+
+[K[34m[1mval: [0mScanning C:\Users\╨Э╨╕╨║╨╕╤В╨░\Desktop\human_detector\sar_3class\dataset\labels\test.cache... 13 images, 0 backgrounds, 0 corrupt: 100% тФБтФБтФБтФБтФБтФБтФБтФБтФБтФБтФБтФБ 13/13 6.1Mit/s 0.0s
+
+[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 25% тФБтФБтФБтФАтФАтФАтФАтФАтФАтФАтФАтФА 1/4 2.2s/it 0.7s<6.6s
+[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 50% тФБтФБтФБтФБтФБтФБтФАтФАтФАтФАтФАтФА 2/4 1.4s/it 1.4s<2.7s
+[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 75% тФБтФБтФБтФБтФБтФБтФБтФБтФБтФАтФАтФА 3/4 1.0s/it 2.1s<1.0s
+[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100% тФБтФБтФБтФБтФБтФБтФБтФБтФБтФБтФБтФБ 4/4 1.8it/s 2.3s
+                   all         13         47      0.493      0.303      0.367      0.185
+                 human         13         34      0.833      0.529      0.651      0.335
+                 stuff          8         13      0.154     0.0769     0.0828      0.035
+Speed: 4.4ms preprocess, 155.8ms inference, 0.0ms loss, 0.9ms postprocess per image
+Results saved to [1mC:\Users\\Desktop\human_detector\runs\sar_3class_test_1536[0m
+Ultralytics 8.4.173  Python-3.14.0 torch-2.14.1+cpu CPU (AMD Ryzen 7 9800X3D 8-Core Processor)
+YOLO11s summary (fused): 100 layers, 9,413,961 parameters, 0 gradients, 21.4 GFLOPs
+[34m[1mval: [0mFast image access  (ping: 0.00.0 ms, read: 4458.61512.9 MB/s, size: 451.1 KB)
+
+[K[34m[1mval: [0mScanning C:\Users\╨Э╨╕╨║╨╕╤В╨░\Desktop\human_detector\sar_3class\dataset\labels\val.cache... 16 images, 3 backgrounds, 0 corrupt: 100% тФБтФБтФБтФБтФБтФБтФБтФБтФБтФБтФБтФБ 16/16 9.6Mit/s 0.0s
+
+[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 25% тФБтФБтФБтФАтФАтФАтФАтФАтФАтФАтФАтФА 1/4 1.6s/it 0.5s<4.7s
+[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 50% тФБтФБтФБтФБтФБтФБтФАтФАтФАтФАтФАтФА 2/4 1.1it/s 0.9s<1.8s
+[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 75% тФБтФБтФБтФБтФБтФБтФБтФБтФБтФАтФАтФА 3/4 1.2it/s 1.6s<0.8s
+[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100% тФБтФБтФБтФБтФБтФБтФБтФБтФБтФБтФБтФБ 4/4 1.7it/s 2.3s
+                   all         16        140      0.675      0.652      0.661      0.343
+                 human         12         95      0.438      0.369      0.347     0.0968
+             transport         12         37      0.792      0.838      0.858      0.576
+                 stuff          7          8      0.796       0.75      0.777      0.355
+Speed: 5.9ms preprocess, 126.0ms inference, 0.0ms loss, 0.4ms postprocess per image
+Results saved to [1mC:\Users\\Desktop\human_detector\runs\sar_3class_val_1536[0m
+{
+  "weights": "C:\\Users\\╨Э╨╕╨║╨╕╤В╨░\\Desktop\\human_detector\\runs\\sar_3class_1024\\weights\\best.pt",
+  "test_polina": {
+    "1024": {
+      "overall": {
+        "precision": 0.34087265338414136,
+        "recall": 0.2836228579997477,
+        "mAP50": 0.33774865586057345,
+        "mAP50-95": 0.15623801947684607
+      },
+      "per_class": {
+        "human": {
+          "precision": 0.6817453067682827,
+          "recall": 0.5672457159994954,
+          "mAP50": 0.6598727856505179,
+          "mAP50-95": 0.3074737648668222
+        },
+        "stuff": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "mAP50": 0.01562452607062902,
+          "mAP50-95": 0.005002274086869872
+        }
+      }
+    },
+    "1536": {
+      "overall": {
+        "precision": 0.4931623279359823,
+        "recall": 0.30316742081447967,
+        "mAP50": 0.36670667649412714,
+        "mAP50-95": 0.18508737277638557
+      },
+      "per_class": {
+        "human": {
+          "precision": 0.8327848086997413,
+          "recall": 0.5294117647058824,
+          "mAP50": 0.6506402880625666,
+          "mAP50-95": 0.3352065052582292
+        },
+        "stuff": {
+          "precision": 0.15353984717222338,
+          "recall": 0.07692307692307693,
+          "mAP50": 0.08277306492568764,
+          "mAP50-95": 0.03496824029454189
+        }
+      }
+    }
+  },
+  "val_egor": {
+    "1024": {
+      "overall": {
+        "precision": 0.6386351618689219,
+        "recall": 0.6605083275496884,
+        "mAP50": 0.6452499235849946,
+        "mAP50-95": 0.37840418944502774
+      },
+      "per_class": {
+        "human": {
+          "precision": 0.29920222202304425,
+          "recall": 0.23157894736842105,
+          "mAP50": 0.17134428848322242,
+          "mAP50-95": 0.0332684248901074
+        },
+        "transport": {
+          "precision": 0.7441241002424711,
+          "recall": 0.8918918918918919,
+          "mAP50": 0.8843221489384281,
+          "mAP50-95": 0.5898469212227537
+        },
+        "stuff": {
+          "precision": 0.8725791633412503,
+          "recall": 0.8580541433887521,
+          "mAP50": 0.8800833333333333,
+          "mAP50-95": 0.5120972222222222
+        }
+      }
+    },
+    "1536": {
+      "overall": {
+        "precision": 0.6751606397517639,
+        "recall": 0.6522147226216105,
+        "mAP50": 0.6606151401158856,
+        "mAP50-95": 0.34283078059310323
+      },
+      "per_class": {
+        "human": {
+          "precision": 0.437754176059475,
+          "recall": 0.36880633002699365,
+          "mAP50": 0.347183779703026,
+          "mAP50-95": 0.09682363092004856
+        },
+        "transport": {
+          "precision": 0.7917206358541411,
+          "recall": 0.8378378378378378,
+          "mAP50": 0.8578731533621677,
+          "mAP50-95": 0.5762670006571081
+        },
+        "stuff": {
+          "precision": 0.7960071073416752,
+          "recall": 0.75,
+          "mAP50": 0.7767884872824632,
+          "mAP50-95": 0.3554017102021532
+        }
+      }
+    }
+  }
+}
+Results saved to [1mC:\Users\\Desktop\human_detector\predictions\sar_3class_polina[0m
+Results saved to [1mC:\Users\\Desktop\human_detector\predictions\sar_3class_egor[0m
+predictions: C:\Users\╨Э╨╕╨║╨╕╤В╨░\Desktop\human_detector\predictions

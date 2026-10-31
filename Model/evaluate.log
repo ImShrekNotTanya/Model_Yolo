@@ -1,0 +1,47 @@
+Ultralytics 8.4.173  Python-3.14.0 torch-2.14.1+cpu CPU (AMD Ryzen 7 9800X3D 8-Core Processor)
+YOLO11s summary (fused): 100 layers, 9,413,961 parameters, 0 gradients, 21.4 GFLOPs
+[34m[1mval: [0mFast image access  (ping: 0.00.0 ms, read: 5040.21560.2 MB/s, size: 557.7 KB)
+
+[K[34m[1mval: [0mScanning C:\Users\╨Э╨╕╨║╨╕╤В╨░\Desktop\human_detector\dataset\labels\val.cache... 13 images, 0 backgrounds, 0 corrupt: 100% тФБтФБтФБтФБтФБтФБтФБтФБтФБтФБтФБтФБ 13/13 5.0Mit/s 0.0s
+
+[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 25% тФБтФБтФБтФАтФАтФАтФАтФАтФАтФАтФАтФА 1/4 1.0s/it 0.3s<3.0s
+[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 50% тФБтФБтФБтФБтФБтФБтФАтФАтФАтФАтФАтФА 2/4 1.7it/s 0.6s<1.2s
+[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 75% тФБтФБтФБтФБтФБтФБтФБтФБтФБтФАтФАтФА 3/4 2.3it/s 0.9s<0.4s
+[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100% тФБтФБтФБтФБтФБтФБтФБтФБтФБтФБтФБтФБ 4/4 4.1it/s 1.0s
+                   all         13         47      0.598      0.386      0.453      0.213
+                 human         13         34      0.933      0.618      0.737      0.327
+                 stuff          8         13      0.264      0.154      0.168     0.0983
+Speed: 0.8ms preprocess, 62.9ms inference, 0.0ms loss, 0.8ms postprocess per image
+Results saved to [1mC:\Users\\Desktop\human_detector\runs\val_final[0m
+{
+  "weights": "C:\\Users\\\u041d\u0438\u043a\u0438\u0442\u0430\\Desktop\\human_detector\\runs\\human3_1024\\weights\\best.pt",
+  "overall": {
+    "precision": 0.5983158393656136,
+    "recall": 0.38574660633484165,
+    "mAP50": 0.45282010019327756,
+    "mAP50-95": 0.21270329358843004
+  },
+  "per_class": {
+    "human": {
+      "precision": 0.9326882651040113,
+      "recall": 0.6176470588235294,
+      "mAP50": 0.7373268594193284,
+      "mAP50-95": 0.32713890926040534
+    },
+    "stuff": {
+      "precision": 0.26394341362721596,
+      "recall": 0.15384615384615385,
+      "mAP50": 0.16831334096722678,
+      "mAP50-95": 0.09826767791645472
+    }
+  }
+}
+Results saved to [1mC:\Users\\Desktop\human_detector\predictions\unlabeled[0m
+Results saved to [1mC:\Users\\Desktop\human_detector\predictions\unlabeled[0m
+Results saved to [1mC:\Users\\Desktop\human_detector\predictions\unlabeled[0m
+Results saved to [1mC:\Users\\Desktop\human_detector\predictions\unlabeled[0m
+Results saved to [1mC:\Users\\Desktop\human_detector\predictions\unlabeled[0m
+Results saved to [1mC:\Users\\Desktop\human_detector\predictions\unlabeled[0m
+Results saved to [1mC:\Users\\Desktop\human_detector\predictions\unlabeled[0m
+Results saved to [1mC:\Users\\Desktop\human_detector\predictions\unlabeled[0m
+╨Я╤А╨╡╨┤╤Б╨║╨░╨╖╨░╨╜╨╕╤П ╤Б╨╛╤Е╤А╨░╨╜╨╡╨╜╤Л ╨▓ C:\Users\╨Э╨╕╨║╨╕╤В╨░\Desktop\human_detector\predictions\unlabeled

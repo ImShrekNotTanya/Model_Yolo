@@ -1,0 +1,108 @@
+{
+  "best": {
+    "1024": {
+      "polina": {
+        "mAP50": 0.3377,
+        "per_class": {
+          "human": 0.6599,
+          "stuff": 0.0156
+        }
+      },
+      "egor": {
+        "mAP50": 0.6452,
+        "per_class": {
+          "human": 0.1713,
+          "transport": 0.8843,
+          "stuff": 0.8801
+        }
+      }
+    },
+    "1536": {
+      "polina": {
+        "mAP50": 0.3667,
+        "per_class": {
+          "human": 0.6506,
+          "stuff": 0.0828
+        }
+      },
+      "egor": {
+        "mAP50": 0.6606,
+        "per_class": {
+          "human": 0.3472,
+          "transport": 0.8579,
+          "stuff": 0.7768
+        }
+      }
+    },
+    "2048": {
+      "polina": {
+        "mAP50": 0.3442,
+        "per_class": {
+          "human": 0.5255,
+          "stuff": 0.1629
+        }
+      },
+      "egor": {
+        "mAP50": 0.6135,
+        "per_class": {
+          "human": 0.2177,
+          "transport": 0.8441,
+          "stuff": 0.7787
+        }
+      }
+    }
+  },
+  "last": {
+    "1024": {
+      "polina": {
+        "mAP50": 0.3445,
+        "per_class": {
+          "human": 0.6683,
+          "stuff": 0.0207
+        }
+      },
+      "egor": {
+        "mAP50": 0.6444,
+        "per_class": {
+          "human": 0.1936,
+          "transport": 0.9209,
+          "stuff": 0.8187
+        }
+      }
+    },
+    "1536": {
+      "polina": {
+        "mAP50": 0.3617,
+        "per_class": {
+          "human": 0.6946,
+          "stuff": 0.0288
+        }
+      },
+      "egor": {
+        "mAP50": 0.707,
+        "per_class": {
+          "human": 0.4466,
+          "transport": 0.942,
+          "stuff": 0.7323
+        }
+      }
+    },
+    "2048": {
+      "polina": {
+        "mAP50": 0.3681,
+        "per_class": {
+          "human": 0.6878,
+          "stuff": 0.0484
+        }
+      },
+      "egor": {
+        "mAP50": 0.6764,
+        "per_class": {
+          "human": 0.4449,
+          "transport": 0.9336,
+          "stuff": 0.6506
+        }
+      }
+    }
+  }
+}

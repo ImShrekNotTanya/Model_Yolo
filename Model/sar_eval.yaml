@@ -1,0 +1,10 @@
+path: C:/Users/Никита/Desktop/human_detector/data/sar_source/datasets/sar
+train: images/train
+val: images/val
+names:
+  0: human
+  1: transport
+  2: stuff
+  3: smoke
+  4: fire
+  5: postburn

@@ -1,0 +1,30 @@
+Ultralytics 8.4.173  Python-3.14.0 torch-2.14.1+cpu CPU (AMD Ryzen 7 9800X3D 8-Core Processor)
+YOLO11s summary (fused): 100 layers, 9,413,574 parameters, 0 gradients, 21.4 GFLOPs
+[34m[1mval: [0mFast image access  (ping: 0.00.0 ms, read: 132.023.8 MB/s, size: 441.7 KB)
+
+[K[34m[1mval: [0mScanning C:\Users\╨Э╨╕╨║╨╕╤В╨░\AppData\Local\Temp\opencode\fire_compare_swap\labels\val... 16 images, 2 backgrounds, 0 corrupt: 100% тФБтФБтФБтФБтФБтФБтФБтФБтФБтФБтФБтФБ 16/16 951.3it/s 0.0s
+[34m[1mval: [0mNew cache created: C:\Users\\AppData\Local\Temp\opencode\fire_compare_swap\labels\val.cache
+
+[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 25% тФБтФБтФБтФАтФАтФАтФАтФАтФАтФАтФАтФА 1/4 3.0it/s 0.1s<1.0s
+[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 75% тФБтФБтФБтФБтФБтФБтФБтФБтФБтФАтФАтФА 3/4 4.8it/s 0.3s<0.2s
+[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100% тФБтФБтФБтФБтФБтФБтФБтФБтФБтФБтФБтФБ 4/4 9.3it/s 0.4s
+                   all         16         95          0          0          0          0
+Speed: 0.2ms preprocess, 20.4ms inference, 0.0ms loss, 0.2ms postprocess per image
+FIREWATCH-SWAP 640 mAP50 0.0
+   fire AP50 0.0 P 0.0 R 0.0
+   smoke AP50 0.0 P 0.0 R 0.0
+Ultralytics 8.4.173  Python-3.14.0 torch-2.14.1+cpu CPU (AMD Ryzen 7 9800X3D 8-Core Processor)
+YOLO11s summary (fused): 100 layers, 9,413,574 parameters, 0 gradients, 21.4 GFLOPs
+[34m[1mval: [0mFast image access  (ping: 0.00.0 ms, read: 8068.81623.4 MB/s, size: 434.3 KB)
+
+[K[34m[1mval: [0mScanning C:\Users\╨Э╨╕╨║╨╕╤В╨░\AppData\Local\Temp\opencode\fire_compare_swap\labels\val.cache... 16 images, 2 backgrounds, 0 corrupt: 100% тФБтФБтФБтФБтФБтФБтФБтФБтФБтФБтФБтФБ 16/16 6.1Mit/s 0.0s
+
+[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 25% тФБтФБтФБтФАтФАтФАтФАтФАтФАтФАтФАтФА 1/4 1.4it/s 0.2s<2.1s
+[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 50% тФБтФБтФБтФБтФБтФБтФАтФАтФАтФАтФАтФА 2/4 2.6it/s 0.4s<0.8s
+[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 75% тФБтФБтФБтФБтФБтФБтФБтФБтФБтФАтФАтФА 3/4 2.8it/s 0.7s<0.4s
+[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100% тФБтФБтФБтФБтФБтФБтФБтФБтФБтФБтФБтФБ 4/4 4.1it/s 1.0s
+                   all         16         95          0          0          0          0
+Speed: 0.8ms preprocess, 51.4ms inference, 0.0ms loss, 0.2ms postprocess per image
+FIREWATCH-SWAP 1024 mAP50 0.0
+   fire AP50 0.0 P 0.0 R 0.0
+   smoke AP50 0.0 P 0.0 R 0.0

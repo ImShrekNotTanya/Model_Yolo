@@ -1,0 +1,103 @@
+saved runs\sar_5class_1024\weights\best_sar.pt names {0: 'human', 1: 'transport', 2: 'marker', 3: 'smoke', 4: 'fire'}
+Ultralytics 8.4.173  Python-3.14.0 torch-2.14.1+cpu CPU (AMD Ryzen 7 9800X3D 8-Core Processor)
+YOLO11s summary (fused): 100 layers, 9,414,735 parameters, 0 gradients, 21.4 GFLOPs
+[34m[1mval: [0mFast image access  (ping: 0.00.0 ms, read: 5177.31495.7 MB/s, size: 575.9 KB)
+
+[K[34m[1mval: [0mScanning C:\Users\╨Э╨╕╨║╨╕╤В╨░\Desktop\human_detector\sar_5class\dataset\labels\test.cache... 13 images, 0 backgrounds, 0 corrupt: 100% тФБтФБтФБтФБтФБтФБтФБтФБтФБтФБтФБтФБ 13/13 4.5Mit/s 0.0s
+
+[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 25% тФБтФБтФБтФАтФАтФАтФАтФАтФАтФАтФАтФА 1/4 2.1s/it 0.6s<6.4s
+[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 50% тФБтФБтФБтФБтФБтФБтФАтФАтФАтФАтФАтФА 2/4 1.3s/it 1.3s<2.5s
+[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 75% тФБтФБтФБтФБтФБтФБтФБтФБтФБтФАтФАтФА 3/4 1.0it/s 1.9s<1.0s
+[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100% тФБтФБтФБтФБтФБтФБтФБтФБтФБтФБтФБтФБ 4/4 1.9it/s 2.2s
+                   all         13         47      0.341       0.43      0.409      0.225
+Speed: 2.5ms preprocess, 148.6ms inference, 0.0ms loss, 0.4ms postprocess per image
+Results saved to [1mC:\Users\\Desktop\human_detector\runs\sar_5class_final\test[0m
+Ultralytics 8.4.173  Python-3.14.0 torch-2.14.1+cpu CPU (AMD Ryzen 7 9800X3D 8-Core Processor)
+YOLO11s summary (fused): 100 layers, 9,414,735 parameters, 0 gradients, 21.4 GFLOPs
+[34m[1mval: [0mFast image access  (ping: 0.00.0 ms, read: 4540.81256.4 MB/s, size: 478.0 KB)
+
+[K[34m[1mval: [0mScanning C:\Users\╨Э╨╕╨║╨╕╤В╨░\Desktop\human_detector\sar_5class\dataset\labels\val.cache... 16 images, 1 backgrounds, 0 corrupt: 100% тФБтФБтФБтФБтФБтФБтФБтФБтФБтФБтФБтФБ 16/16 7.5Mit/s 0.0s
+
+[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 25% тФБтФБтФБтФАтФАтФАтФАтФАтФАтФАтФАтФА 1/4 1.5s/it 0.5s<4.5s
+[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 50% тФБтФБтФБтФБтФБтФБтФАтФАтФАтФАтФАтФА 2/4 1.1it/s 0.9s<1.8s
+[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 75% тФБтФБтФБтФБтФБтФБтФБтФБтФБтФАтФАтФА 3/4 1.2it/s 1.6s<0.8s
+[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100% тФБтФБтФБтФБтФБтФБтФБтФБтФБтФБтФБтФБ 4/4 1.8it/s 2.2s
+                   all         16        235      0.613      0.503       0.55       0.24
+Speed: 5.4ms preprocess, 120.6ms inference, 0.0ms loss, 1.1ms postprocess per image
+Results saved to [1mC:\Users\\Desktop\human_detector\runs\sar_5class_final\val[0m
+{
+  "weights": "runs\\sar_5class_1024\\weights\\best_sar.pt",
+  "imgsz": 1536,
+  "classes": [
+    "human",
+    "transport",
+    "marker",
+    "smoke",
+    "fire"
+  ],
+  "test_polina": {
+    "overall": {
+      "precision": 0.3409427377291336,
+      "recall": 0.42987204840206616,
+      "mAP50": 0.4093298270679313,
+      "mAP50-95": 0.22522161362511617
+    },
+    "per_class": {
+      "human": {
+        "precision": 0.6552578082093795,
+        "recall": 0.7828210198810555,
+        "mAP50": 0.7834807530415626,
+        "mAP50-95": 0.43263853074607284
+      },
+      "marker": {
+        "precision": 0.026627667248887692,
+        "recall": 0.07692307692307693,
+        "mAP50": 0.035178901094300025,
+        "mAP50-95": 0.017804696504159567
+      }
+    }
+  },
+  "val_egor": {
+    "overall": {
+      "precision": 0.6127641310790696,
+      "recall": 0.5033877257326691,
+      "mAP50": 0.5497774871235513,
+      "mAP50-95": 0.24048172677288943
+    },
+    "per_class": {
+      "human": {
+        "precision": 0.5416536955265873,
+        "recall": 0.47368421052631576,
+        "mAP50": 0.4605499324334873,
+        "mAP50-95": 0.10482412216609785
+      },
+      "transport": {
+        "precision": 0.8441156892666637,
+        "recall": 0.8918918918918919,
+        "mAP50": 0.9514833476691557,
+        "mAP50-95": 0.5875539073919535
+      },
+      "marker": {
+        "precision": 0.8326214961560078,
+        "recall": 0.875,
+        "mAP50": 0.89715,
+        "mAP50-95": 0.365765
+      },
+      "smoke": {
+        "precision": 0.4419448551406405,
+        "recall": 0.03753793479190552,
+        "mAP50": 0.1359881677266705,
+        "mAP50-95": 0.04981246886651754
+      },
+      "fire": {
+        "precision": 0.4034849193054487,
+        "recall": 0.23882459145323232,
+        "mAP50": 0.30371598778844366,
+        "mAP50-95": 0.0944531354398783
+      }
+    }
+  }
+}
+Results saved to [1mC:\Users\\Desktop\human_detector\predictions\sar_5class_final_polina[0m
+Results saved to [1mC:\Users\\Desktop\human_detector\predictions\sar_5class_final_egor[0m
+predictions: C:\Users\╨Э╨╕╨║╨╕╤В╨░\Desktop\human_detector\predictions
