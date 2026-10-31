@@ -1,3 +1,6 @@
+Размеченные данные:
 https://drive.google.com/file/d/1_Q-18KKuZMXPNAUQTN1U--cRJA2BE7EA/view?usp=sharing
-
 https://drive.google.com/file/d/1xf4FnC3qkDT1-Pcuo8Dr20HlcievefcN/view?usp=drive_link
+
+Сам датасет:
+https://drive.google.com/file/d/1GfQsCLe_rv_sWeu-0vR31P079PKf0M1j/view?usp=sharing
